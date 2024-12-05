@@ -52,7 +52,7 @@ function First() {
           value={city}
           onChange={(e) => setCity(e.target.value)}
         />
-        <button onClick={fetchWeather}>Click here</button>
+        <button onClick={fetchWeather}>add</button>
       </div>
       {loading && <p className="loading">Loading...</p>}
       {error && <p className="error">{error}</p>}
